@@ -1,0 +1,866 @@
+<!doctype html>
+<html class="not-ready lg:text-base" lang="fa">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Title -->
+  <title>
+    خلاصه علوم هشتم - بلاگ درسی علی صفامنش
+  </title>
+
+  <!-- Meta -->
+  <meta name="theme-color" />
+
+  
+  <!-- Author -->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  <meta name="description" content="خلاصه علوم هشتم برای مطالعه قبل از امتحان" />
+  <meta name="author" content="علی صفامنش" />
+  <!-- The Open Graph protocol -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="خلاصه علوم هشتم" />
+  <meta property="og:site_name" content="بلاگ درسی علی صفامنش" />
+  <meta property="og:description" content="خلاصه علوم هشتم برای مطالعه قبل از امتحان" />
+  <meta property="og:url" content="https:&#x2F;&#x2F;kita-zola.pages.dev&#x2F;khl-lwm-hshtm&#x2F;" />
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <meta property="og:image" content="https://kita-zola.pages.dev/icons/github.svg" />
+  
+  <!---->
+  
+
+  <!-- CSS & JS -->
+  <link rel="preload stylesheet" as="style" href="https://kita-zola.pages.dev/main.css" />
+  <style>
+    :root {
+      --bg: #f4f4f5;
+      --bg-dark: #18181b;
+      --header: #e4e4e7;
+      --header-dark: #27272a;
+    }
+    html[dir="rtl"] * {
+      text-align: right;
+    }
+    html[dir="ltr"] * {
+      text-align: left;
+    }
+  </style>
+
+  
+
+  <!-- Dark Icon -->
+  <link rel="preload" as="image" href="https://kita-zola.pages.dev/icons/theme.svg" />
+
+  <!-- Math -->
+  
+  <!---->
+
+  <!-- Mermaid -->
+  
+  <!---->
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://kita-zola.pages.dev/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://kita-zola.pages.dev/apple-touch-icon.png" />
+
+  <!-- Feeds -->
+  
+
+  <!-- Canonical -->
+  <link rel="stylesheet" href="https://kita-zola.pages.dev/custom.css">
+  <link rel="canonical" href="https:&#x2F;&#x2F;kita-zola.pages.dev&#x2F;khl-lwm-hshtm&#x2F;" />
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+  <style>
+    @font-face {
+      font-family: 'Poppins';
+      src: url(https://daradege.ir/fonts/poppins.ttf);
+    }
+    * {
+      font-family: 'Poppins', "Vazirmatn", sans-serif;
+    }
+    [dir="rtl"] * {
+      font-family: "Vazirmatn", 'Poppins', sans-serif;
+    }
+  </style>
+
+  <!-- Head inject -->
+  
+</head>
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header
+  class="header fixed top-0 z-40 mx-auto min-h-[3.5rem] w-full"
+>
+  <div class="mx-auto w-full max-w-4xl p-3 lg:flex lg:justify-between">
+    <div class="flex justify-between">
+      <div class="flex items-center">
+        <div
+          class="btn-dark ms-4 h-6 w-6 shrink-0 cursor-pointer text-[0] [background:url(./icons/theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
+          role="button"
+          aria-label="Dark"
+        ></div>&nbsp;
+        <a class="text-2xl font-semibold" href="https://kita-zola.pages.dev">بلاگ درسی علی صفامنش</a>
+      </div>
+      
+      <div
+        class="btn-menu relative z-50 flex h-8 w-8 shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+        role="button"
+        aria-label="Menu"
+      ></div>
+      
+    </div>
+    <script>
+      // base
+      const htmlClass = document.documentElement.classList;
+      setTimeout(() => {
+        htmlClass.remove("not-ready");
+      }, 10);
+
+      // mobile menu
+      const btnMenu = document.querySelector(".btn-menu");
+      btnMenu?.addEventListener("click", () => {
+        htmlClass.toggle("open");
+      });
+
+      // dark theme
+      const setDark = (isDark) => {
+        if (isDark) {
+          document.body.dispatchEvent(new CustomEvent("set-theme", { detail: "dark" }));
+          htmlClass.add("dark");
+        } else {
+          document.body.dispatchEvent(new CustomEvent("set-theme", { detail: "light" }));
+          htmlClass.remove("dark");
+        }
+        localStorage.setItem("dark", isDark);
+      };
+
+      // init
+      const darkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+      if (htmlClass.contains("dark")) {
+        setDark(true);
+      } else {
+        const darkVal = localStorage.getItem("dark");
+        setDark(darkVal ? darkVal === "true" : darkScheme.matches);
+      }
+
+      // listen system
+      darkScheme.addEventListener("change", (event) => {
+        setDark(event.matches);
+      });
+
+      // manual switch
+      const btnDark = document.querySelector(".btn-dark");
+      btnDark.addEventListener("click", () => {
+        setDark(localStorage.getItem("dark") !== "true");
+      });
+    </script>
+    
+    <nav class="flex w-full items-center lg:w-auto">
+      <ul
+        class="nav-wrapper flex w-full flex-col py-2 lg:w-auto lg:flex-row lg:self-center lg:py-0"
+      >
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://kita-zola.pages.dev/tags"
+            >تگ‌ها</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://kita-zola.pages.dev/about"
+            >درباره</a
+          >
+        </li>
+        
+      </ul>
+      <!-- Header Nav inject -->
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <!-- Body Start inject -->
+    
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl break-words px-4 pb-16 pt-32 dark:prose-invert prose-pre:rounded-lg prose-img:rounded-lg"
+    >
+      
+<article>
+  <!-- Page Start inject -->
+  
+
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">خلاصه علوم هشتم</h1>
+    <div class="text-sm antialiased opacity-60">
+  
+  <time>1404-02-25</time>
+  <span class="mx-1">&middot;</span>
+  <span>9 دقیقه</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>علی صفامنش</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+  </header>
+
+  
+
+  <!-- TOC -->
+  <!---->
+<div class="block-bg mb-12 flex rounded-lg p-2 text-lg">
+  <details>
+    <summary class="cursor-pointer py-1 pl-4">
+      <span style="padding: 10px;">جدول محتوا</span>
+    </summary>
+    <div class="px-2">
+      <ul>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://kita-zola.pages.dev/khl-lwm-hshtm/#jzwh-lwm-hshtm-tmmy-fsl-h-bh-jz-zmyn-shnsy"
+            >جزوه علوم هشتم تمامی فصل ها به جز زمین شناسی</a
+          >
+          
+          <ul>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kita-zola.pages.dev/khl-lwm-hshtm/#white-check-mark-fsl-1-mkhlwt-w-jdszy-mwd"
+                >✅ فصل ۱: مخلوط و جداسازی مواد</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kita-zola.pages.dev/khl-lwm-hshtm/#white-check-mark-fsl-2-tgyyrhy-shymyyy-dr-khdmt-zndgy"
+                >✅ فصل ۲: تغییرهای شیمیایی در خدمت زندگی</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kita-zola.pages.dev/khl-lwm-hshtm/#white-check-mark-fsl-3-z-drwn-tm-chh-khbr"
+                >✅ فصل ۳: از درون اتم چه خبر؟</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kita-zola.pages.dev/khl-lwm-hshtm/#white-check-mark-fsl-4-tnzym-sby"
+                >✅ فصل ۴: تنظیم عصبی</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kita-zola.pages.dev/khl-lwm-hshtm/#white-check-mark-fsl-5-hs-w-hrkht"
+                >✅ فصل ۵: حس و حرکت</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kita-zola.pages.dev/khl-lwm-hshtm/#white-check-mark-fsl-6-tnzym-hwrmwny"
+                >✅ فصل ۶: تنظیم هورمونی</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kita-zola.pages.dev/khl-lwm-hshtm/#white-check-mark-fsl-7-lfby-zystfnwry"
+                >✅ فصل ۷: الفبای زیست‌فناوری</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kita-zola.pages.dev/khl-lwm-hshtm/#white-check-mark-fsl-8-twlyd-mthl-dr-jndrn"
+                >✅ فصل ۸: تولید مثل در جانداران</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kita-zola.pages.dev/khl-lwm-hshtm/#white-check-mark-fsl-9-lkhtrysyth"
+                >✅ فصل ۹: الکتریسیته</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kita-zola.pages.dev/khl-lwm-hshtm/#white-check-mark-fsl-10-mgntys"
+                >✅ فصل ۱۰: مغناطیس</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kita-zola.pages.dev/khl-lwm-hshtm/#white-check-mark-fsl-14-nwr-w-wyjgyhy-an"
+                >✅ فصل ۱۴: نور و ویژگی‌های آن</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://kita-zola.pages.dev/khl-lwm-hshtm/#white-check-mark-fsl-15-shkhst-nwr"
+                >✅ فصل ۱۵: شکست نور</a
+              >
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+      </ul>
+    </div>
+  </details>
+</div>
+
+<!---->
+
+  <!-- Content -->
+  <section><h1 id="jzwh-lwm-hshtm-tmmy-fsl-h-bh-jz-zmyn-shnsy">جزوه علوم هشتم تمامی فصل ها به جز زمین شناسی</h1>
+<p>سلام بر و بچ گل، مخصوصا بچه های گل مفید! این جزوه تقریبا کل چیزی هست که باید برای امتحان داشته باشید. میتونه کمک خوبی باشه براتون. درس خوندن بهتون خوش بگذره 🙃</p>
+<h2 id="white-check-mark-fsl-1-mkhlwt-w-jdszy-mwd">✅ فصل ۱: مخلوط و جداسازی مواد</h2>
+<p>🔹 <strong>ماده</strong> به دو دسته تقسیم می‌شود:</p>
+<ul>
+<li><strong>خالص</strong> (عنصر یا ترکیب)</li>
+<li><strong>مخلوط</strong> (ناهمگن یا همگن)</li>
+</ul>
+<p>🔸 <strong>مخلوط‌ها:</strong></p>
+<ul>
+<li><strong>همگن</strong> (یكنواخت): مثل آب نمک، هوا</li>
+<li><strong>ناهمگن</strong> (غیر یكنواخت): مثل سالاد، دوغ</li>
+</ul>
+<p><img src="https://img.tebyan.net/big/1390/11/2012012812434437_1.jpg" alt="دسته بندی مواد" /></p>
+<p>🔸 <strong>روش‌های جداسازی مخلوط‌ها:</strong></p>
+<ol>
+<li><strong>سرریز کردن</strong> (مثلاً روغن و آب)</li>
+<li><strong>صاف کردن</strong> (مثل چای و تفاله)</li>
+<li><strong>تبخیر</strong> (جدا کردن نمک از آب)</li>
+<li><strong>تقطیر</strong> (جدا کردن آب خالص از آب شور)</li>
+<li><strong>مغناطیسی</strong> (جدا کردن آهن از خاک)</li>
+<li><strong>سانتریفیوژ</strong> (با چرخاندن: مثل شیر و چربی)</li>
+</ol>
+<p>🔸 <strong>انحلال‌پذیری</strong>: مقدار ماده‌ای که در مقدار مشخصی از حلال در دما و فشار مشخص حل می‌شود.</p>
+<hr />
+<h2 id="white-check-mark-fsl-2-tgyyrhy-shymyyy-dr-khdmt-zndgy">✅ فصل ۲: تغییرهای شیمیایی در خدمت زندگی</h2>
+<p>🔹 <strong>تغییر فیزیکی</strong>: تغییر ظاهر، ماده جدید تولید نمی‌شود (مثل یخ → آب)
+🔹 <strong>تغییر شیمیایی</strong>: ماده جدید با ویژگی‌های جدید تولید می‌شود (مثل سوختن چوب)</p>
+<p>🔸 نشانه‌های تغییر شیمیایی:</p>
+<ul>
+<li>تغییر رنگ</li>
+<li>تولید گاز</li>
+<li>ایجاد نور یا گرما</li>
+<li>تولید رسوب</li>
+</ul>
+<p>🔸 <strong>مثال‌های تغییر شیمیایی</strong>:</p>
+<ul>
+<li>زنگ زدن آهن</li>
+<li>سوختن چوب</li>
+<li>پختن غذا</li>
+</ul>
+<p>🔸 <strong>سوخت‌ها</strong>:
+مواد قابل اشتعال → انرژی تولید می‌کنند
+مثل: چوب، زغال، نفت، گاز</p>
+<p>🔸 <strong>واکنش شیمیایی سوختن</strong> (مثال: متان CH₄):
+سوخت + اکسیژن → دی‌اکسید کربن + آب + انرژی</p>
+<hr />
+<h2 id="white-check-mark-fsl-3-z-drwn-tm-chh-khbr">✅ فصل ۳: از درون اتم چه خبر؟</h2>
+<p>🔸 ماده از <strong>اتم</strong> ساخته شده
+🔸 اتم از سه ذره‌ی اصلی ساخته شده:</p>
+<ul>
+<li><strong>پروتون (بار مثبت، در هسته)</strong></li>
+<li><strong>نوترون (بی‌بار، در هسته)</strong></li>
+<li><strong>الکترون (بار منفی، دور هسته)</strong></li>
+</ul>
+<p><img src="https://www.jahaneshimi.com/wp-content/uploads/2021/03/%D8%AA%D8%B9%D8%B1%DB%8C%D9%81-%D9%85%D8%AF%D9%84-%D8%A7%D8%AA%D9%85%DB%8C-%D8%A8%D9%88%D8%B1.png" alt="مدل بور" /></p>
+<p>🔸 عدد اتمی = تعداد پروتون‌ها
+🔸 عدد جرمی = تعداد پروتون + نوترون</p>
+<p><img src="https://blog.faradars.org/wp-content/uploads/2018/11/Atomic-number.jpg" alt="مدل نوشتن عنصر" /></p>
+<p>🔸 یون چیست؟</p>
+<ul>
+<li>اگر اتم <strong>الکترون از دست بدهد</strong> → یون مثبت</li>
+<li>اگر اتم <strong>الکترون بگیرد</strong> → یون منفی</li>
+</ul>
+<p><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSveyGwJBuh-F5om0pHU3YkTPQBowgoVj1Y6A&amp;s" alt="یون" /></p>
+<p>🔸 <strong>مدل بور</strong>:
+الکترون‌ها در لایه‌هایی دور هسته‌اند (مثل پیاز)</p>
+<ul>
+<li>لایه‌ی اول: ۲ الکترون</li>
+<li>لایه‌ی دوم: ۸ الکترون</li>
+<li>لایه‌ی سوم: ۱۸ الکترون</li>
+</ul>
+<p>🔸 <strong>عنصرها</strong> در جدول دوره‌ای مرتب شده‌اند.
+ردیف = دوره، ستون = گروه (ویژگی‌های مشابه)</p>
+<hr />
+<h3 id="white-check-mark-yzwtwp-chyh">✅ ایزوتوپ چیه؟</h3>
+<p><strong>ایزوتوپ‌ها</strong> اتم‌هایی از <strong>یک عنصر</strong> هستن که:</p>
+<ul>
+<li><strong>تعداد پروتون‌هاشون برابره</strong> (یعنی همون عنصر هستن)</li>
+<li><strong>ولی تعداد نوترون‌هاشون فرق داره</strong></li>
+</ul>
+<hr />
+<h3 id="round-pu-t-ryf-sdh">📌 تعریف ساده:</h3>
+<blockquote>
+<p>«ایزوتوپ‌ها، اتم‌هایی از یک عنصر هستن که <strong>عدد اتمی یکسان</strong> و <strong>عدد جرمی متفاوت</strong> دارن.»</p>
+</blockquote>
+<hr />
+<h3 id="mthl-m-rwf-yzwtwphy-khrbn">🧪 مثال معروف: ایزوتوپ‌های کربن</h3>
+<p>عنصر <strong>کربن (C)</strong> همیشه ۶ پروتون داره.<br />
+ولی چند ایزوتوپ داره:</p>
+<table><thead><tr><th>نام ایزوتوپ</th><th>پروتون</th><th>نوترون</th><th>عدد جرمی</th></tr></thead><tbody>
+<tr><td>کربن-۱۲</td><td>۶</td><td>۶</td><td>۱۲</td></tr>
+<tr><td>کربن-۱۳</td><td>۶</td><td>۷</td><td>۱۳</td></tr>
+<tr><td>کربن-۱۴</td><td>۶</td><td>۸</td><td>۱۴</td></tr>
+</tbody></table>
+<p>همه‌شون کربن هستن، چون عدد اتمی (تعداد پروتون‌ها) <strong>۶</strong> مونده<br />
+ولی چون نوترون فرق داره، عدد جرمی فرق کرده → اینا <strong>ایزوتوپ</strong> هستن</p>
+<hr />
+<h3 id="mag-khiy-khrbrd-drn">🔍 کِی کاربرد دارن؟</h3>
+<ul>
+<li>ایزوتوپ‌های پرتوزا توی <strong>پزشکی (مثل ید-۱۳۱)</strong> و <strong>باستان‌شناسی (کربن-۱۴)</strong> کاربرد دارن.</li>
+</ul>
+<hr />
+<h2 id="white-check-mark-fsl-4-tnzym-sby">✅ فصل ۴: <strong>تنظیم عصبی</strong></h2>
+<h3 id="round-pu-1-dstgh-sby-chyst">📌 ۱. دستگاه عصبی چیست؟</h3>
+<p>سیستمی در بدن که اطلاعات را دریافت، پردازش و پاسخ مناسب تولید می‌کند.
+➤ پیام‌ها از طریق <strong>سلول‌های عصبی (نورون‌ها)</strong> منتقل می‌شن.</p>
+<hr />
+<h3 id="brain-jzy-dstgh-sby">🧠 اجزای دستگاه عصبی:</h3>
+<table><thead><tr><th>بخش</th><th>توضیح</th></tr></thead><tbody>
+<tr><td><strong>دستگاه عصبی مرکزی (CNS)</strong></td><td>مغز و نخاع</td></tr>
+<tr><td><strong>دستگاه عصبی محیطی</strong></td><td>رشته‌های عصبی که از مغز و نخاع به تمام بدن می‌رن</td></tr>
+</tbody></table>
+<p><img src="https://brainbee.ir/wp-content/uploads/2018/09/nervous-system.png" alt="دستگاه عصبی" /></p>
+<hr />
+<h3 id="arrows-counterclockwise-nw-nwrwnh">🔄 نوع نورون‌ها:</h3>
+<p><img src="https://treatta.com/wp-content/uploads/2021/06/neuron_types.jpg" alt="انواع نورون" /></p>
+<ol>
+<li><strong>حسی</strong>: اطلاعات رو از اندام‌های حسی به مغز می‌برن</li>
+<li><strong>حرکتی</strong>: فرمان‌ها رو از مغز به ماهیچه‌ها و اندام‌ها می‌برن</li>
+<li><strong>میانی (واسطه)</strong>: پیام رو بین نورون‌ها منتقل می‌کنن (توی نخاع و مغز)</li>
+</ol>
+<hr />
+<h3 id="zap-n-khs-rflkhs">⚡️ انعکاس (رفلکس):</h3>
+<p>پاسخ سریع و غیرارادی به یک محرک
+مثال: کشیدن دست از روی جسم داغ</p>
+<blockquote>
+<p>مرکز آن: <strong>نخاع</strong> (نه مغز!)</p>
+</blockquote>
+<hr />
+<h2 id="white-check-mark-fsl-5-hs-w-hrkht">✅ فصل ۵: <strong>حس و حرکت</strong></h2>
+<h3 id="rolli-hws-pnjgnh">👀 حواس پنج‌گانه:</h3>
+<ol>
+<li>بینایی</li>
+<li>شنوایی</li>
+<li>بویایی</li>
+<li>چشایی</li>
+<li>لامسه</li>
+</ol>
+<hr />
+<h3 id="round-pu-chshm">📌 چشم:</h3>
+<table><thead><tr><th>بخش</th><th>کار</th></tr></thead><tbody>
+<tr><td><strong>قرنیه</strong></td><td>خم کردن نور</td></tr>
+<tr><td><strong>عدسی</strong></td><td>تنظیم فاصله کانونی</td></tr>
+<tr><td><strong>شبکیه</strong></td><td>تشکیل تصویر و گیرنده نوری</td></tr>
+<tr><td><strong>مردمک</strong></td><td>کنترل نور وارد شده</td></tr>
+<tr><td><strong>عصب بینایی</strong></td><td>انتقال پیام به مغز</td></tr>
+</tbody></table>
+<p>نکته: تصویر روی شبکیه <strong>وارونه</strong> تشکیل می‌شه ولی مغز آن را <strong>راست</strong> می‌فهمد.</p>
+<p><img src="https://blog.faradars.org/wp-content/uploads/2021/02/8-4.jpg" alt="چشم" /></p>
+<hr />
+<h3 id="bear-gwsh">👂 گوش:</h3>
+<table><thead><tr><th>بخش</th><th>کار</th></tr></thead><tbody>
+<tr><td><strong>بیرونی</strong></td><td>جمع‌آوری صدا</td></tr>
+<tr><td><strong>میانی</strong></td><td>تقویت صدا (سه استخوانچه)</td></tr>
+<tr><td><strong>داخلی</strong></td><td>تبدیل امواج صوتی به پیام عصبی</td></tr>
+</tbody></table>
+<p><img src="https://blog.faradars.org/wp-content/uploads/2021/09/ear.jpg" alt="گوش" /></p>
+<hr />
+<h3 id="hrkht">🦵 حرکت:</h3>
+<p>حرکت با همکاری <strong>ماهیچه‌ها + استخوان‌ها + مفصل‌ها</strong> انجام می‌شه</p>
+<table><thead><tr><th>نوع ماهیچه</th><th>محل</th><th>ویژگی</th></tr></thead><tbody>
+<tr><td><strong>ارادی (اسکلتی)</strong></td><td>دست، پا،...</td><td>کنترل‌شدنی</td></tr>
+<tr><td><strong>غیرارادی (صاف)</strong></td><td>معده، روده</td><td>خودکار</td></tr>
+<tr><td><strong>قلبی</strong></td><td>فقط قلب</td><td>خودکار، قوی</td></tr>
+</tbody></table>
+<p><img src="https://hamyar.in/wp-content/uploads/2024/03/olum-8-14-1.png" alt="حرکت" /></p>
+<hr />
+<h3 id="stkhwn-w-skhlt-bdn">🦴 استخوان و اسکلت بدن:</h3>
+<p>اسکلت انسان از بیش از <strong>۲۰۰ استخوان</strong> تشکیل شده و نقش‌های زیادی در بدن داره:</p>
+<table><thead><tr><th>وظیفه</th><th>توضیح</th></tr></thead><tbody>
+<tr><td><strong>شکل‌دهی به بدن</strong></td><td>اسکلت به بدن فرم می‌ده</td></tr>
+<tr><td><strong>محافظت از اندام‌ها</strong></td><td>مثل جمجمه که از مغز محافظت می‌کنه</td></tr>
+<tr><td><strong>محل اتصال عضلات</strong></td><td>عضلات به استخوان‌ها متصل‌ان و باعث حرکت می‌شن</td></tr>
+<tr><td><strong>تولید سلول‌های خونی</strong></td><td>در مغز قرمز استخوان</td></tr>
+<tr><td><strong>ذخیره مواد معدنی</strong></td><td>مثل کلسیم و فسفر</td></tr>
+</tbody></table>
+<p><img src="https://rasekhoon.net/_WebsiteData/Article/ArticleImages/1111111110/3000321.jpg" alt="استخوان" /></p>
+<hr />
+<h3 id="bkhshhy-sly-skhlt">🏗️ بخش‌های اصلی اسکلت:</h3>
+<ol>
+<li><strong>جمجمه</strong>: محافظ مغز</li>
+<li><strong>ستون فقرات</strong>: شامل مهره‌ها، محافظ نخاع</li>
+<li><strong>قفسه سینه</strong>: دنده‌ها + جناغ، محافظ قلب و ریه‌ها</li>
+<li><strong>اندام فوقانی</strong>: شانه، بازو، ساعد، دست</li>
+<li><strong>اندام تحتانی</strong>: لگن، ران، ساق، پا</li>
+</ol>
+<hr />
+<h3 id="skhtmn-stkhwn">🧩 ساختمان استخوان:</h3>
+<table><thead><tr><th>بخش</th><th>توضیح</th></tr></thead><tbody>
+<tr><td><strong>استخوان فشرده</strong></td><td>لایه خارجی سخت و محکم</td></tr>
+<tr><td><strong>استخوان اسفنجی</strong></td><td>درون استخوان، سبک و مقاوم</td></tr>
+<tr><td><strong>مغز استخوان قرمز</strong></td><td>تولید گلبول‌های قرمز و سفید</td></tr>
+<tr><td><strong>مغز استخوان زرد</strong></td><td>ذخیره چربی</td></tr>
+</tbody></table>
+<p><img src="https://www.iranorthoped.com/wp-content/uploads/2023/09/%D8%A7%D8%B3%D8%AA%D8%AE%D9%88%D8%A7%D9%86.-%D8%B3%D8%A7%D8%AE%D8%AA%D9%85%D8%A7%D9%86.jpg" alt="استخوان" /></p>
+<hr />
+<h3 id="link-mfsl">🔗 مفصل:</h3>
+<blockquote>
+<p>محل اتصال دو یا چند استخوان به هم که باعث حرکت استخوان‌ها می‌شه</p>
+</blockquote>
+<hr />
+<h3 id="nw-mfsl">🛠️ انواع مفصل:</h3>
+<table><thead><tr><th>نوع مفصل</th><th>محل نمونه</th><th>ویژگی</th></tr></thead><tbody>
+<tr><td><strong>متحرک</strong></td><td>شانه، ران</td><td>حرکت در همه جهت‌ها</td></tr>
+<tr><td><strong>نیمه متحرک</strong></td><td>بین مهره‌ها</td><td>حرکت محدود</td></tr>
+<tr><td><strong>ثابت</strong></td><td>استخوان‌های جمجمه</td><td>بی‌حرکت</td></tr>
+</tbody></table>
+<p><img src="https://setare.com/files/fa/news/1399/8/24/388141_981.jpg" alt="مفصل" /></p>
+<hr />
+<h3 id="muscle-rtbt-stkhwn-w-mhychh">💪 ارتباط استخوان و ماهیچه:</h3>
+<ul>
+<li>استخوان‌ها <strong>با تاندون</strong> به عضله‌ها وصل‌ان</li>
+<li>مفصل‌ها توسط <strong>رباط</strong> محکم نگه داشته می‌شن</li>
+<li>وقتی عضله‌ها <strong>منقبض</strong> می‌شن → استخوان حرکت می‌کنه</li>
+</ul>
+<hr />
+<p>✔️ مثال:
+در خم و راست کردن دست، <strong>ماهیچه‌ی دو سر بازویی</strong> و <strong>سه سر پشت بازو</strong> به صورت جفت مخالف عمل می‌کنن.</p>
+<hr />
+<h2 id="white-check-mark-fsl-6-tnzym-hwrmwny">✅ فصل ۶: <strong>تنظیم هورمونی</strong></h2>
+<h3 id="round-pu-hwrmwn-chyst">📌 هورمون چیست؟</h3>
+<blockquote>
+<p>ماده‌ای شیمیایی که توسط <strong>غده‌ها</strong> ترشح می‌شه و روی بخش‌های مختلف بدن اثر می‌ذاره.</p>
+</blockquote>
+<hr />
+<h3 id="bulb-mqysh-sby-w-hwrmwny">💡 مقایسه عصبی و هورمونی:</h3>
+<table><thead><tr><th>ویژگی</th><th>عصبی</th><th>هورمونی</th></tr></thead><tbody>
+<tr><td>سرعت</td><td>خیلی سریع</td><td>کندتر</td></tr>
+<tr><td>مسیر</td><td>نورون‌ها</td><td>خون</td></tr>
+<tr><td>دوام اثر</td><td>کوتاه</td><td>طولانی‌تر</td></tr>
+</tbody></table>
+<hr />
+<h3 id="brain-gdhhy-mhm-dr-bdn">🧠 غده‌های مهم در بدن:</h3>
+<table><thead><tr><th>غده</th><th>محل</th><th>هورمون</th><th>نقش</th></tr></thead><tbody>
+<tr><td><strong>هیپوفیز</strong></td><td>زیر مغز</td><td>چند نوع</td><td>فرمانده بقیه غده‌ها</td></tr>
+<tr><td><strong>تیروئید</strong></td><td>گردن</td><td>تیروکسین</td><td>تنظیم سوخت‌وساز</td></tr>
+<tr><td><strong>فوق کلیوی</strong></td><td>بالای کلیه</td><td>آدرنالین</td><td>واکنش سریع به خطر</td></tr>
+<tr><td><strong>لوزالمعده</strong></td><td>کنار معده</td><td>انسولین</td><td>کاهش قند خون</td></tr>
+<tr><td><strong>جنسی</strong></td><td>بیضه/تخمدان</td><td>تستوسترون/استروژن</td><td>بلوغ جنسی</td></tr>
+</tbody></table>
+<hr />
+<h3 id="syringe-dybt">💉 دیابت:</h3>
+<p>بیماری‌ای که در آن انسولین کافی ترشح نمی‌شود → قند خون بالا می‌ماند</p>
+<p><img src="https://cdn.gama.ir/uploads/thumbs/pp/3881_905f04dd8f94b65bb2eaf3f07bc57ad2/pic_025.jpg" alt="چرخه انسولین" /></p>
+<h2 id="white-check-mark-fsl-7-lfby-zystfnwry">✅ فصل ۷: الفبای زیست‌فناوری</h2>
+<h3 id="zystfnwry-chyst">🧬 زیست‌فناوری چیست؟</h3>
+<blockquote>
+<p>استفاده‌ی علمی از <strong>جانداران یا محصولات آن‌ها</strong> برای تولید کالاها و خدمات مفید</p>
+</blockquote>
+<hr />
+<h3 id="mthlhyy-z-khrbrd-zystfnwry">🧫 مثال‌هایی از کاربرد زیست‌فناوری:</h3>
+<ul>
+<li>تولید <strong>ماست و پنیر</strong> با باکتری</li>
+<li>تهیه‌ی <strong>نان</strong> با قارچ (مخمر)</li>
+<li>تولید <strong>داروهایی مثل انسولین</strong> باکتریایی</li>
+<li>ساخت <strong>واکسن</strong></li>
+</ul>
+<hr />
+<h3 id="microscope-dna-chyst">🔬 DNA چیست؟</h3>
+<blockquote>
+<p><strong>مولکول اطلاعات ژنتیکی</strong> درون هسته‌ی سلول، شامل دستورات ساخت بدن
+شکلش: مارپیچ دو رشته‌ای (دابل هلیکس)</p>
+</blockquote>
+<hr />
+<h3 id="mhndsy-jntykh">🧪 مهندسی ژنتیک:</h3>
+<p>تغییر دادن ژن‌های یک موجود برای داشتن ویژگی دلخواه (مثلاً تولید انسولین انسانی توسط باکتری‌ها)</p>
+<hr />
+<h3 id="slwlhy-bnydy">🧬 سلول‌های بنیادی:</h3>
+<p>سلول‌هایی که هنوز تخصصی نشده‌ن و می‌تونن به سلول‌های مختلف بدن تبدیل بشن (مثلاً سلول خونی، عصبی و...)</p>
+<hr />
+<h2 id="white-check-mark-fsl-8-twlyd-mthl-dr-jndrn">✅ فصل ۸: تولید مثل در جانداران</h2>
+<h3 id="round-pu-chr-twlydmthl-mhmh">📌 چرا تولیدمثل مهمه؟</h3>
+<p>برای <strong>بقای نسل</strong> جانداران</p>
+<hr />
+<h3 id="dw-nw-twlyd-mthl">🧬 دو نوع تولید مثل:</h3>
+<table><thead><tr><th>نوع</th><th>توضیح</th><th>مثال</th></tr></thead><tbody>
+<tr><td><strong>غیرجنسی</strong></td><td>فقط یک والد → فرزندان شبیه والد</td><td>باکتری، گیاه سیب‌زمینی، قارچ</td></tr>
+<tr><td><strong>جنسی</strong></td><td>دو والد → فرزندان متنوع</td><td>انسان، پرندگان، گل‌ها</td></tr>
+</tbody></table>
+<hr />
+<h3 id="seedling-twlyd-mthl-gyrjnsy">🌱 تولید مثل غیرجنسی:</h3>
+<ul>
+<li>تقسیم دوتایی (در باکتری)</li>
+<li>جوانه‌زنی (در قارچ یا هیدرا)</li>
+<li>قلمه‌زدن (در گیاهان)</li>
+</ul>
+<hr />
+<h3 id="restroom-twlyd-mthl-jnsy-dr-nsn">🚻 تولید مثل جنسی در انسان:</h3>
+<table><thead><tr><th>اندام</th><th>عملکرد</th></tr></thead><tbody>
+<tr><td>بیضه</td><td>تولید اسپرم</td></tr>
+<tr><td>تخمدان</td><td>تولید تخمک</td></tr>
+<tr><td>رحم</td><td>محل رشد جنین</td></tr>
+</tbody></table>
+<blockquote>
+<p>هنگام لقاح، اسپرم و تخمک با هم ترکیب می‌شن → زیگوت تشکیل می‌شه → جنین رشد می‌کنه</p>
+</blockquote>
+<hr />
+<h3 id="arrows-counterclockwise-blwg">🔄 بلوغ:</h3>
+<blockquote>
+<p>دوره‌ای که در آن اندام‌های جنسی بالغ می‌شن و ویژگی‌های ثانویه ظاهر می‌شن (ریش، رشد سینه و...)</p>
+</blockquote>
+<hr />
+<h2 id="white-check-mark-fsl-9-lkhtrysyth">✅ فصل ۹: الکتریسیته</h2>
+<h3 id="zap-br-lkhtrykhy">⚡️ بار الکتریکی:</h3>
+<blockquote>
+<p>ویژگی‌ای از ماده که باعث نیروی الکتریکی می‌شه (دو نوع: <strong>مثبت</strong> و <strong>منفی</strong>)</p>
+</blockquote>
+<ul>
+<li>بارهای همنام: <strong>دفع</strong></li>
+<li>بارهای ناهمنام: <strong>جذب</strong></li>
+</ul>
+<hr />
+<h3 id="electric-plug-jryn-lkhtrykhy">🔌 جریان الکتریکی:</h3>
+<blockquote>
+<p>حرکت الکترون‌ها در مدار
+واحد: <strong>آمپر (A)</strong></p>
+</blockquote>
+<hr />
+<h3 id="gear-mdr-lkhtrykhy">⚙️ مدار الکتریکی:</h3>
+<p>مداری که از یک منبع برق، سیم، لامپ و کلید ساخته شده.</p>
+<p>🔸 مدار باید <strong>بسته</strong> باشه تا جریان برقرار بشه.</p>
+<hr />
+<h3 id="battery-btry">🔋 باتری:</h3>
+<p>منبع ولتاژ → الکترون‌ها رو از قطب منفی به مثبت هدایت می‌کنه
+واحد ولتاژ: <strong>ولت (V)</strong></p>
+<hr />
+<h3 id="fire-mqwmt-lkhtrykhy">🔥 مقاومت الکتریکی:</h3>
+<blockquote>
+<p>مانعی در برابر جریان برق
+واحد: <strong>اهم (Ω)</strong>
+نمونه‌ها: سیم نازک، لامپ</p>
+</blockquote>
+<hr />
+<h3 id="rsn-w-nrsn">🧲 رسانا و نارسانا:</h3>
+<table><thead><tr><th>رسانا</th><th>نارسانا</th></tr></thead><tbody>
+<tr><td>فلزات مثل مس، آلومینیوم</td><td>چوب، شیشه، پلاستیک</td></tr>
+</tbody></table>
+<hr />
+<h3 id="zap-frmwl-mhm-fyzykhy">⚡️ فرمول مهم فیزیکی:</h3>
+<blockquote>
+<p><strong>شدت جریان (I) = ولتاژ (V) ÷ مقاومت (R)</strong>
+(V = IR)</p>
+</blockquote>
+<hr />
+<h2 id="white-check-mark-fsl-10-mgntys">✅ فصل ۱۰: <strong>مغناطیس</strong></h2>
+<h3 id="mgntys-chyst">🧲 مغناطیس چیست؟</h3>
+<p>نیرویی که برخی مواد (مثل آهن، کبالت و نیکل) رو جذب می‌کنه.</p>
+<hr />
+<h3 id="nw-ahnrb">🧲 انواع آهن‌ربا:</h3>
+<table><thead><tr><th>نوع</th><th>مثال</th></tr></thead><tbody>
+<tr><td>طبیعی</td><td>سنگ مغناطیسی</td></tr>
+<tr><td>مصنوعی</td><td>آهن‌ربای میله‌ای، نعلی، حلقه‌ای</td></tr>
+</tbody></table>
+<hr />
+<h3 id="qtbh">🧲 قطب‌ها:</h3>
+<ul>
+<li>آهن‌ربا دو قطب داره: <strong>شمال (N)</strong> و <strong>جنوب (S)</strong></li>
+<li>قطب‌های <strong>هم‌نام → دافعه</strong></li>
+<li>قطب‌های <strong>ناهم‌نام → جاذبه</strong></li>
+</ul>
+<hr />
+<h3 id="wyjgyh">🧪 ویژگی‌ها:</h3>
+<ul>
+<li>خاصیت مغناطیسی <strong>از دو سر بیشتره</strong></li>
+<li>اگر آهن‌ربا رو نصف کنیم، باز هم <strong>هر نیمه دو قطب خواهد داشت</strong></li>
+<li><strong>براده آهن</strong> شکل خطوط میدان مغناطیسی رو نشون می‌دن</li>
+</ul>
+<hr />
+<h3 id="arrows-counterclockwise-mydn-mgntysy">🔄 میدان مغناطیسی:</h3>
+<blockquote>
+<p>فضایی اطراف آهن‌رباست که نیرو وارد می‌کنه
+با خطوطی نشون داده می‌شه که از N به S رسم می‌شن</p>
+</blockquote>
+<hr />
+<h3 id="zap-lkhtrwmgntys">⚡️ الکترومغناطیس:</h3>
+<p>وقتی از سیم برق‌دار جریان بگذره، <strong>میدان مغناطیسی تولید می‌شه</strong></p>
+<p>➡️ با پیچیدن سیم دور میخ آهنی → <strong>آهنربای الکتریکی</strong></p>
+<hr />
+<h3 id="electric-plug-khrbrdh">🔌 کاربردها:</h3>
+<ul>
+<li>بلندگو</li>
+<li>زنگ در</li>
+<li>موتور الکتریکی</li>
+<li>MRI</li>
+</ul>
+<hr />
+<h2 id="white-check-mark-fsl-14-nwr-w-wyjgyhy-an">✅ فصل ۱۴: <strong>نور و ویژگی‌های آن</strong></h2>
+<h3 id="star2-nwr-chyst">🌟 نور چیست؟</h3>
+<blockquote>
+<p>شکلی از انرژی که با چشم دیده می‌شه و به خط راست حرکت می‌کنه</p>
+</blockquote>
+<hr />
+<h3 id="rainbow-wyjgyhy-nwr">🌈 ویژگی‌های نور:</h3>
+<ol>
+<li><strong>انتقال به خط راست</strong></li>
+<li><strong>بازتاب (انعکاس)</strong></li>
+<li><strong>جذب و عبور از اجسام</strong></li>
+</ol>
+<hr />
+<h3 id="mag-jsm-z-nzr-bwr-nwr">🔍 اجسام از نظر عبور نور:</h3>
+<table><thead><tr><th>نوع جسم</th><th>مثال</th><th>ویژگی</th></tr></thead><tbody>
+<tr><td>شفاف</td><td>شیشه</td><td>نور کامل عبور می‌کنه</td></tr>
+<tr><td>نیمه‌شفاف</td><td>کاغذ روغنی</td><td>بخشی از نور عبور می‌کنه</td></tr>
+<tr><td>کدر</td><td>چوب</td><td>نور عبور نمی‌کنه</td></tr>
+</tbody></table>
+<hr />
+<h3 id="bztb-nwr">🪞 بازتاب نور:</h3>
+<blockquote>
+<p>برگشت نور از سطح صاف</p>
+</blockquote>
+<table><thead><tr><th>نوع بازتاب</th><th>سطح</th><th>ویژگی</th></tr></thead><tbody>
+<tr><td>منظم</td><td>آینه صاف</td><td>تصویر واضح</td></tr>
+<tr><td>نامنظم</td><td>دیوار، کاغذ</td><td>تصویر نامشخص</td></tr>
+</tbody></table>
+<p>➤ در بازتاب منظم: <strong>زاویه تابش = زاویه بازتاب</strong></p>
+<hr />
+<h2 id="white-check-mark-fsl-15-shkhst-nwr">✅ فصل ۱۵: <strong>شکست نور</strong></h2>
+<h3 id="arrows-counterclockwise-shkhst-nwr-chyst">🔄 شکست نور چیست؟</h3>
+<blockquote>
+<p>تغییر مسیر نور هنگام عبور از یک ماده به ماده‌ی دیگر (مثلاً از هوا به آب)</p>
+</blockquote>
+<hr />
+<h3 id="chr-shkhst-tfq-myfth">چرا شکست اتفاق می‌افته؟</h3>
+<p>چون سرعت نور در مواد مختلف فرق داره.
+مثلاً نور در شیشه کندتر از هوا حرکت می‌کنه → منحرف می‌شه.</p>
+<hr />
+<h3 id="qnwn-shkhst">⬆️ قانون شکست:</h3>
+<ul>
+<li>اگر نور از <strong>محیط رقیق به غلیظ</strong> بره → <strong>به خط عمود نزدیک می‌شه</strong></li>
+<li>اگر از <strong>محیط غلیظ به رقیق</strong> بره → <strong>از خط عمود دور می‌شه</strong></li>
+</ul>
+<hr />
+<h3 id="mag-mthlh">🔍 مثال‌ها:</h3>
+<ul>
+<li>نی داخل لیوان شکسته دیده می‌شه</li>
+<li>رنگین‌کمان (نور سفید شکست می‌خوره و تجزیه می‌شه)</li>
+<li>منشور → نور سفید رو به رنگ‌های مختلف تجزیه می‌کنه</li>
+</ul>
+<hr />
+<h3 id="nkhth-mhm">⚠️ نکته مهم:</h3>
+<blockquote>
+<p><strong>نور در خلأ بیشترین سرعت رو داره</strong>
+بعدش: هوا &gt; آب &gt; شیشه</p>
+</blockquote>
+</section>
+
+  <hr />
+
+  <!-- Post Taxonomies -->
+  
+<footer class="mt-12 flex flex-col">
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <div class="mb-2 flex flex-wrap">
+    <span class="block-bg mb-1.5 mr-1.5 rounded-lg px-5 py-1.5">Tags </span>
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://kita-zola.pages.dev/tags/lwm/"
+      >علوم</a
+    >
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://kita-zola.pages.dev/tags/hshtm/"
+      >هشتم</a
+    >
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://kita-zola.pages.dev/tags/mthn/"
+      >امتحان</a
+    >
+    
+  </div>
+  
+</footer>
+
+<!---->
+
+  <!-- Post Nav -->
+  
+<!---->
+
+  <!-- Comment -->
+  
+
+  <!-- Page End inject -->
+  
+</article>
+
+    </main>
+
+    <footer class="mx-auto flex max-w-3xl flex-wrap items-center px-8 py-4 text-sm opacity-60">
+  <div class="mr-auto basis-full lg:basis-1/2">
+    <!---->
+    <!---->
+    &copy; 2025<!---->
+    
+    <a class="link" href="https://kita-zola.pages.dev">
+      علی صفامنش
+    </a>
+     |<!---->
+    <!---->
+    <a class="link" href="https:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by-sa&#x2F;4.0&#x2F;deed" rel="noopener" target="_blank">
+      CC BY-SA 4.0
+    </a>
+    <!---->
+    
+  </div>
+  <div class="flex basis-full lg:basis-1/2 lg:justify-end">
+    <a class="link mr-6 lg:ml-6" href="https://www.getzola.org/" rel="noopener" target="_blank">
+      قدرت گرفته از زولا
+    </a>
+    <a class="link" href="https://github.com/st1020/kita" rel="noopener" target="_blank">✎ کیتا فارسی</a>
+  </div>
+  <!-- Footer inject -->
+  
+</footer>
+
+
+    <!-- Body End inject -->
+    
+  </body>
+</html>
