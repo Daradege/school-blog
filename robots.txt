@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 Allow: /
-Sitemap: https://kita-zola.pages.dev/sitemap.xml
+Sitemap: https://daradege.ir/school-blog/sitemap.xml
