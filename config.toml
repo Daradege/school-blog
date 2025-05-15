@@ -76,7 +76,7 @@ bio = "منابع درسی و جزوات در اینجا قرار داده می 
 # The URL of avatar.
 avatar_url = "icons/school.svg"
 # Invert color in dark mode.
-avatar_invert = true
+avatar_invert = false
 
 # The social icons below the profile on the home page.
 # The `name` should be the file name of static/icons/*.svg or the icon name of https://simpleicons.org/
