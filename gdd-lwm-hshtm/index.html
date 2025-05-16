@@ -1,0 +1,561 @@
+<!doctype html>
+<html class="not-ready lg:text-base" lang="fa">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Title -->
+  <title>
+    غدد علوم هشتم - بلاگ درسی علی صفامنش
+  </title>
+
+  <!-- Meta -->
+  <meta name="theme-color" />
+
+  
+  <!-- Author -->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  <meta name="description" content="جزوه درس علوم هشتم، قسمت غدد" />
+  <meta name="author" content="علی صفامنش" />
+  <!-- The Open Graph protocol -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="غدد علوم هشتم" />
+  <meta property="og:site_name" content="بلاگ درسی علی صفامنش" />
+  <meta property="og:description" content="جزوه درس علوم هشتم، قسمت غدد" />
+  <meta property="og:url" content="https:&#x2F;&#x2F;daradege.ir&#x2F;school-blog&#x2F;gdd-lwm-hshtm&#x2F;" />
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <meta property="og:image" content="https://daradege.ir/school-blog/icons/github.svg" />
+  
+  <!---->
+  
+
+  <!-- CSS & JS -->
+  <link rel="preload stylesheet" as="style" href="https://daradege.ir/school-blog/main.css" />
+  <style>
+    :root {
+      --bg: #f4f4f5;
+      --bg-dark: #18181b;
+      --header: #e4e4e7;
+      --header-dark: #27272a;
+    }
+    html[dir="rtl"] * {
+      text-align: right;
+    }
+    html[dir="ltr"] * {
+      text-align: left;
+    }
+  </style>
+
+  
+
+  <!-- Dark Icon -->
+  <link rel="preload" as="image" href="https://daradege.ir/school-blog/icons/theme.svg" />
+
+  <!-- Math -->
+  
+  <!---->
+
+  <!-- Mermaid -->
+  
+  <!---->
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://daradege.ir/school-blog/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://daradege.ir/school-blog/apple-touch-icon.png" />
+
+  <!-- Feeds -->
+  
+
+  <!-- Canonical -->
+  <link rel="stylesheet" href="https://daradege.ir/school-blog/custom.css">
+  <link rel="canonical" href="https:&#x2F;&#x2F;daradege.ir&#x2F;school-blog&#x2F;gdd-lwm-hshtm&#x2F;" />
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+  <style>
+    @font-face {
+      font-family: 'Poppins';
+      src: url(https://daradege.ir/fonts/poppins.ttf);
+    }
+    * {
+      font-family: 'Poppins', "Vazirmatn", sans-serif;
+    }
+    [dir="rtl"] * {
+      font-family: "Vazirmatn", 'Poppins', sans-serif;
+    }
+  </style>
+
+  <!-- Head inject -->
+  
+</head>
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header
+  class="header fixed top-0 z-40 mx-auto min-h-[3.5rem] w-full"
+>
+  <div class="mx-auto w-full max-w-4xl p-3 lg:flex lg:justify-between">
+    <div class="flex justify-between">
+      <div class="flex items-center">
+        <div
+          class="btn-dark ms-4 h-6 w-6 shrink-0 cursor-pointer text-[0] [background:url(./icons/theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
+          role="button"
+          aria-label="Dark"
+        ></div>&nbsp;
+        <a class="text-2xl font-semibold" href="https://daradege.ir/school-blog">بلاگ درسی علی صفامنش</a>
+      </div>
+      
+      <div
+        class="btn-menu relative z-50 flex h-8 w-8 shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+        role="button"
+        aria-label="Menu"
+      ></div>
+      
+    </div>
+    <script>
+      // base
+      const htmlClass = document.documentElement.classList;
+      setTimeout(() => {
+        htmlClass.remove("not-ready");
+      }, 10);
+
+      // mobile menu
+      const btnMenu = document.querySelector(".btn-menu");
+      btnMenu?.addEventListener("click", () => {
+        htmlClass.toggle("open");
+      });
+
+      // dark theme
+      const setDark = (isDark) => {
+        if (isDark) {
+          document.body.dispatchEvent(new CustomEvent("set-theme", { detail: "dark" }));
+          htmlClass.add("dark");
+        } else {
+          document.body.dispatchEvent(new CustomEvent("set-theme", { detail: "light" }));
+          htmlClass.remove("dark");
+        }
+        localStorage.setItem("dark", isDark);
+      };
+
+      // init
+      const darkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+      if (htmlClass.contains("dark")) {
+        setDark(true);
+      } else {
+        const darkVal = localStorage.getItem("dark");
+        setDark(darkVal ? darkVal === "true" : darkScheme.matches);
+      }
+
+      // listen system
+      darkScheme.addEventListener("change", (event) => {
+        setDark(event.matches);
+      });
+
+      // manual switch
+      const btnDark = document.querySelector(".btn-dark");
+      btnDark.addEventListener("click", () => {
+        setDark(localStorage.getItem("dark") !== "true");
+      });
+    </script>
+    
+    <nav class="flex w-full items-center lg:w-auto">
+      <ul
+        class="nav-wrapper flex w-full flex-col py-2 lg:w-auto lg:flex-row lg:self-center lg:py-0"
+      >
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://daradege.ir/school-blog/tags"
+            >تگ‌ها</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://daradege.ir/school-blog/about"
+            >درباره</a
+          >
+        </li>
+        
+      </ul>
+      <!-- Header Nav inject -->
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <!-- Body Start inject -->
+    
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl break-words px-4 pb-16 pt-32 dark:prose-invert prose-pre:rounded-lg prose-img:rounded-lg"
+    >
+      
+<article>
+  <!-- Page Start inject -->
+  
+
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">غدد علوم هشتم</h1>
+    <div class="text-sm antialiased opacity-60">
+  
+  <time>1404-02-26</time>
+  <span class="mx-1">&middot;</span>
+  <span>3 دقیقه</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>علی صفامنش</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+  </header>
+
+  
+
+  <!-- TOC -->
+  <!---->
+<div class="block-bg mb-12 flex rounded-lg p-2 text-lg">
+  <details>
+    <summary class="cursor-pointer py-1 pl-4">
+      <span style="padding: 10px;">جدول محتوا</span>
+    </summary>
+    <div class="px-2">
+      <ul>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://daradege.ir/school-blog/gdd-lwm-hshtm/#brain-fsl-gdd-dr-bdn-nsn-dr-sth-w-jzy-yt-khml-lwm-hshtm"
+            >🧠 فصل غدد در بدن انسان (در سطح و جزئیات کامل علوم هشتم)</a
+          >
+          
+          <ul>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://daradege.ir/school-blog/gdd-lwm-hshtm/#1-t-ryf-khly-gdh"
+                >🟣 1. تعریف کلی غده</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://daradege.ir/school-blog/gdd-lwm-hshtm/#2-gdd-drwnryz-hwrmwnszh"
+                >🟣 2. غدد درون‌ریز: 🧬 هورمون‌سازها</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://daradege.ir/school-blog/gdd-lwm-hshtm/#blue-circle-3-gdd-brwnryz-trshht-bh-byrwn-y-bh-drwn-lwlhh"
+                >🔵 3. غدد برون‌ریز: ترشحات به بیرون یا به درون لوله‌ها</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://daradege.ir/school-blog/gdd-lwm-hshtm/#tfwthy-mhm-byn-dw-nw-gdh"
+                >🟢 تفاوت‌های مهم بین دو نوع غده:</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://daradege.ir/school-blog/gdd-lwm-hshtm/#round-pu-nkht-khyly-mhm-mthny"
+                >📌 نکات خیلی مهم امتحانی:</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://daradege.ir/school-blog/gdd-lwm-hshtm/#char-jm-bndy-nhyy"
+                >🔚 جمع‌بندی نهایی</a
+              >
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+      </ul>
+    </div>
+  </details>
+</div>
+
+<!---->
+
+  <!-- Content -->
+  <section><h1 id="brain-fsl-gdd-dr-bdn-nsn-dr-sth-w-jzy-yt-khml-lwm-hshtm">🧠 فصل غدد در بدن انسان (در سطح و جزئیات کامل علوم هشتم)</h1>
+<hr />
+<h2 id="1-t-ryf-khly-gdh">🟣 1. تعریف کلی غده</h2>
+<h3 id="gdh-chyh">✳️ غده چیه؟</h3>
+<p>غده یه بخش از بدنه که مواد خاصی می‌سازه و ترشح می‌کنه. بسته به اینکه این ترشح‌ها کجا برن، دو نوع غده داریم:</p>
+<table><thead><tr><th>نوع غده</th><th>مسیر ترشح</th><th>مثال</th></tr></thead><tbody>
+<tr><td>درون‌ریز (Endocrine)</td><td>وارد خون</td><td>هیپوفیز، تیروئید، فوق‌کلیوی</td></tr>
+<tr><td>برون‌ریز (Exocrine)</td><td>بیرون بدن یا درون لوله‌ها</td><td>بزاقی، عرق، گوارشی</td></tr>
+</tbody></table>
+<hr />
+<h2 id="2-gdd-drwnryz-hwrmwnszh">🟣 2. غدد درون‌ریز: 🧬 هورمون‌سازها</h2>
+<h3 id="brain-gdh-hypwfyz-pituitary">🧠 غده هیپوفیز (Pituitary)</h3>
+<ul>
+<li>
+<p><strong>جایگاه:</strong> زیر مغز، اندازه‌ی نخود</p>
+</li>
+<li>
+<p><strong>لقب:</strong> فرمانده یا مدیر همه غده‌های درون‌ریز</p>
+</li>
+<li>
+<p><strong>کارها:</strong></p>
+<ul>
+<li>تولید هورمون رشد (اگه زیاد بشه: غول‌آسا، اگه کم بشه: کوتولگی)</li>
+<li>تنظیم کار تخمدان، بیضه، تیروئید، آدرنال و ...</li>
+<li>تنظیم آب بدن با کمک کلیه‌ها (هورمون ضد ادراری: ADH)</li>
+</ul>
+</li>
+<li>
+<p><strong>مهم‌ترین هورمون‌ها:</strong></p>
+<ul>
+<li>هورمون رشد (GH)</li>
+<li>هورمون تحریک تیروئید (TSH)</li>
+<li>هورمون تحریک غدد جنسی (LH و FSH)</li>
+<li>ADH (تنظیم آب)</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="butterfly-gdh-tyrwy-yd-thyroid">🦋 غده تیروئید (Thyroid)</h3>
+<ul>
+<li>
+<p><strong>جایگاه:</strong> جلوی گردن، پروانه‌ای شکل</p>
+</li>
+<li>
+<p><strong>کار:</strong> تنظیم سوخت‌وساز (متابولیسم) کل بدن</p>
+</li>
+<li>
+<p><strong>هورمون مهم:</strong> تیروکسین (Thyroxine)</p>
+</li>
+<li>
+<p><strong>اختلالات:</strong></p>
+<ul>
+<li>پرکاری تیروئید → لاغری، بی‌خوابی، تعریق زیاد</li>
+<li>کم‌کاری تیروئید → چاقی، خستگی، کندی ذهن</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="gdd-prtyrwy-yd-parathyroid">🟤 غدد پاراتیروئید (Parathyroid)</h3>
+<ul>
+<li><strong>جایگاه:</strong> پشت غده تیروئید (معمولاً ۴ تا هستن)</li>
+<li><strong>کار:</strong> تنظیم مقدار کلسیم و فسفر خون</li>
+<li><strong>هورمون:</strong> پاراتورمون</li>
+<li><strong>اهمیت کلسیم:</strong> برای دندان، استخوان، انقباض ماهیچه و هدایت عصبی</li>
+</ul>
+<hr />
+<h3 id="zap-gdd-fwq-khlywy-adrenal-glands">⚡ غدد فوق کلیوی (Adrenal glands)</h3>
+<ul>
+<li>
+<p><strong>جایگاه:</strong> بالای کلیه‌ها (شبیه کلاه روی کلیه‌ها)</p>
+</li>
+<li>
+<p><strong>دو بخش داره:</strong></p>
+<ul>
+<li><strong>قشر بیرونی (کورتکس):</strong> ترشح هورمون‌های تنظیم فشار خون، نمک‌ها و چربی‌ها</li>
+<li><strong>مغز داخلی (مدولا):</strong> ترشح <strong>آدرنالین</strong></li>
+</ul>
+</li>
+<li>
+<p><strong>هورمون معروف:</strong> آدرنالین (هورمون فرار یا مبارزه)</p>
+<ul>
+<li>در زمان ترس، هیجان، عصبانیت → ضربان قلب بالا، گشاد شدن مردمک، تنفس تند</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="gdh-lwzlm-dh-pancreas">🍽️ غده لوزالمعده (Pancreas)</h3>
+<ul>
+<li>
+<p><strong>نقش دوگانه:</strong></p>
+<ul>
+<li><strong>درون‌ریز:</strong> ترشح <strong>انسولین</strong> و <strong>گلوکاگون</strong></li>
+<li><strong>برون‌ریز:</strong> ترشح آنزیم‌های گوارشی</li>
+</ul>
+</li>
+<li>
+<p><strong>انسولین:</strong> قند خون رو کاهش می‌ده (به سلول‌ها کمک می‌کنه قند رو جذب کنن)</p>
+</li>
+<li>
+<p><strong>گلوکاگون:</strong> قند خون رو بالا می‌بره (موقع گرسنگی)</p>
+</li>
+<li>
+<p><strong>اگه انسولین نباشه → دیابت ایجاد می‌شه</strong></p>
+</li>
+</ul>
+<hr />
+<h3 id="gdd-jnsy">♀️♂️ غدد جنسی</h3>
+<h4 id="psrn-bydh-testes">پسران: <strong>بیضه (Testes)</strong></h4>
+<ul>
+<li>تولید هورمون تستوسترون</li>
+<li>رشد موهای صورت، کلفت شدن صدا، رشد عضلات و ...</li>
+</ul>
+<h4 id="dkhtrn-tkhmdn-ovaries">دختران: <strong>تخمدان (Ovaries)</strong></h4>
+<ul>
+<li>تولید هورمون استروژن و پروژسترون</li>
+<li>رشد سینه‌ها، شروع قاعدگی، رشد رحم و صفات زنانه</li>
+</ul>
+<hr />
+<h2 id="blue-circle-3-gdd-brwnryz-trshht-bh-byrwn-y-bh-drwn-lwlhh">🔵 3. غدد برون‌ریز: ترشحات به بیرون یا به درون لوله‌ها</h2>
+<table><thead><tr><th>نام غده</th><th>محل ترشح</th><th>کار اصلی</th></tr></thead><tbody>
+<tr><td>بزاقی (دهان)</td><td>درون دهان</td><td>ترشح بزاق برای هضم نشاسته</td></tr>
+<tr><td>اشکی (چشم)</td><td>سطح چشم</td><td>محافظت، تمیز کردن، مرطوب نگه‌داشتن</td></tr>
+<tr><td>عرق (پوست)</td><td>سطح پوست</td><td>خنک کردن بدن و تنظیم دما</td></tr>
+<tr><td>چربی (پوست)</td><td>کنار موها</td><td>نرم نگه داشتن پوست و مو</td></tr>
+<tr><td>گوارشی (معده، روده، پانکراس)</td><td>درون لوله گوارش</td><td>تجزیه غذاها به مواد ساده‌تر</td></tr>
+</tbody></table>
+<hr />
+<h2 id="tfwthy-mhm-byn-dw-nw-gdh">🟢 تفاوت‌های مهم بین دو نوع غده:</h2>
+<table><thead><tr><th>ویژگی‌ها</th><th>غده درون‌ریز</th><th>غده برون‌ریز</th></tr></thead><tbody>
+<tr><td>مسیر ترشح</td><td>مستقیماً وارد خون</td><td>وارد لوله‌ها یا بیرون بدن</td></tr>
+<tr><td>ماده ترشحی</td><td>هورمون</td><td>آنزیم، عرق، بزاق و ...</td></tr>
+<tr><td>سرعت اثرگذاری</td><td>کند اما ماندگار</td><td>سریع و موضعی</td></tr>
+<tr><td>مثال</td><td>هیپوفیز، تیروئید، آدرنال</td><td>بزاقی، عرق، گوارشی</td></tr>
+</tbody></table>
+<hr />
+<h2 id="round-pu-nkht-khyly-mhm-mthny">📌 نکات خیلی مهم امتحانی:</h2>
+<ul>
+<li><strong>هورمون‌ها</strong> پیام‌رسان‌های شیمیایی هستن که از طریق خون به اعضای بدن می‌رسن.</li>
+<li>هیپوفیز غده‌ی اصلیه که کار بیشتر غده‌های درون‌ریز رو تنظیم می‌کنه.</li>
+<li><strong>انسولین ↓</strong> → دیابت / <strong>آدرنالین ↑</strong> → واکنش سریع به خطر</li>
+<li>سوخت‌وساز بدن توسط <strong>تیروکسین</strong> کنترل می‌شه.</li>
+<li>در پسرها: تستوسترون → بم شدن صدا و عضلات / در دخترها: استروژن → قاعدگی و رشد سینه‌ها</li>
+</ul>
+<hr />
+<h2 id="char-jm-bndy-nhyy">🔚 جمع‌بندی نهایی</h2>
+<p>بدن انسان یه سیستم هماهنگ و هوشمنده. غده‌ها مثل مرکز فرماندهی عمل می‌کنن و با ترشح مواد خاص، بدن رو تنظیم می‌کنن. اگه فقط یکی از این غده‌ها درست کار نکنه، تعادل کل بدن به هم می‌خوره. به همین دلیله که علوم هشتم تأکید زیادی روی این فصل داره.</p>
+</section>
+
+  <hr />
+
+  <!-- Post Taxonomies -->
+  
+<footer class="mt-12 flex flex-col">
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <div class="mb-2 flex flex-wrap">
+    <span class="block-bg mb-1.5 mr-1.5 rounded-lg px-5 py-1.5">Tags </span>
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://daradege.ir/school-blog/tags/lwm/"
+      >علوم</a
+    >
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://daradege.ir/school-blog/tags/hshtm/"
+      >هشتم</a
+    >
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://daradege.ir/school-blog/tags/mthn/"
+      >امتحان</a
+    >
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://daradege.ir/school-blog/tags/gdd/"
+      >غدد</a
+    >
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://daradege.ir/school-blog/tags/gdh/"
+      >غده</a
+    >
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://daradege.ir/school-blog/tags/fsl-shsh/"
+      >فصل شش</a
+    >
+    
+  </div>
+  
+</footer>
+
+<!---->
+
+  <!-- Post Nav -->
+  
+<nav class="block-bg mt-12 flex flex-wrap rounded-lg text-lg">
+  
+  
+  <a
+    class="block-hover-mask flex min-w-[50%] grow items-center rounded-l-md p-6 pr-3 font-semibold no-underline"
+    href="https:&#x2F;&#x2F;daradege.ir&#x2F;school-blog&#x2F;khl-lwm-hshtm&#x2F;"
+    ><span>خلاصه علوم هشتم</span><span class="mr-1.5">&nbsp;&nbsp;←</span></a
+  >
+  <!---->
+  
+</nav>
+
+<!---->
+
+  <!-- Comment -->
+  
+
+  <!-- Page End inject -->
+  
+</article>
+
+    </main>
+
+    <footer class="mx-auto flex max-w-3xl flex-wrap items-center px-8 py-4 text-sm opacity-60">
+  <div class="mr-auto basis-full lg:basis-1/2">
+    <!---->
+    <!---->
+    &copy; 2025<!---->
+    
+    <a class="link" href="https://daradege.ir/school-blog">
+      علی صفامنش
+    </a>
+     |<!---->
+    <!---->
+    <a class="link" href="https:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by-sa&#x2F;4.0&#x2F;deed" rel="noopener" target="_blank">
+      CC BY-SA 4.0
+    </a>
+    <!---->
+    
+  </div>
+  <div class="flex basis-full lg:basis-1/2 lg:justify-end">
+    <a class="link mr-6 lg:ml-6" href="https://www.getzola.org/" rel="noopener" target="_blank">
+      قدرت گرفته از زولا
+    </a>
+    <a class="link" href="https://github.com/st1020/kita" rel="noopener" target="_blank">✎ کیتا فارسی</a>
+  </div>
+  <!-- Footer inject -->
+  
+</footer>
+
+
+    <!-- Body End inject -->
+    
+  </body>
+</html>
