@@ -1,0 +1,504 @@
+<!doctype html>
+<html class="not-ready lg:text-base" lang="fa">
+  <head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <!-- Title -->
+  <title>
+    جزوه ادبیات هشتم، جناس - بلاگ درسی علی صفامنش
+  </title>
+
+  <!-- Meta -->
+  <meta name="theme-color" />
+
+  
+  <!-- Author -->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  <meta name="description" content="جزوا آرایه جناس ادبیات هشتم" />
+  <meta name="author" content="علی صفامنش" />
+  <!-- The Open Graph protocol -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="جزوه ادبیات هشتم، جناس" />
+  <meta property="og:site_name" content="بلاگ درسی علی صفامنش" />
+  <meta property="og:description" content="جزوا آرایه جناس ادبیات هشتم" />
+  <meta property="og:url" content="https:&#x2F;&#x2F;daradege.github.io&#x2F;school-blog&#x2F;dbyt-hshtm-jns&#x2F;" />
+  
+  <!---->
+  
+  <!---->
+  
+  <!---->
+  
+  <meta property="og:image" content="https://daradege.github.io/school-blog/icons/github.svg" />
+  
+  <!---->
+  
+
+  <!-- CSS & JS -->
+  <link rel="preload stylesheet" as="style" href="https://daradege.github.io/school-blog/main.css" />
+  <style>
+    :root {
+      --bg: #f4f4f5;
+      --bg-dark: #18181b;
+      --header: #e4e4e7;
+      --header-dark: #27272a;
+    }
+    html[dir="rtl"] * {
+      text-align: right;
+    }
+    html[dir="ltr"] * {
+      text-align: left;
+    }
+  </style>
+
+  
+
+  <!-- Dark Icon -->
+  <link rel="preload" as="image" href="https://daradege.github.io/school-blog/icons/theme.svg" />
+
+  <!-- Math -->
+  
+  <!---->
+
+  <!-- Mermaid -->
+  
+  <!---->
+
+  <!-- Favicon -->
+  <link rel="icon" href="https://daradege.github.io/school-blog/favicon.ico" />
+  <link rel="apple-touch-icon" href="https://daradege.github.io/school-blog/apple-touch-icon.png" />
+
+  <!-- Feeds -->
+  
+
+  <!-- Canonical -->
+  <link rel="stylesheet" href="https://daradege.github.io/school-blog/custom.css">
+  <link rel="canonical" href="https:&#x2F;&#x2F;daradege.github.io&#x2F;school-blog&#x2F;dbyt-hshtm-jns&#x2F;" />
+  <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazirmatn@v33.003/Vazirmatn-font-face.css" rel="stylesheet" type="text/css" />
+  <style>
+    @font-face {
+      font-family: 'Poppins';
+      src: url(https://daradege.ir/fonts/poppins.ttf);
+    }
+    * {
+      font-family: 'Poppins', "Vazirmatn", sans-serif;
+    }
+    [dir="rtl"] * {
+      font-family: "Vazirmatn", 'Poppins', sans-serif;
+    }
+  </style>
+
+  <!-- Head inject -->
+  
+</head>
+  <body class="text-black duration-200 ease-out dark:text-white">
+    <header
+  class="header fixed top-0 z-40 mx-auto min-h-[3.5rem] w-full"
+>
+  <div class="mx-auto w-full max-w-4xl p-3 lg:flex lg:justify-between">
+    <div class="flex justify-between">
+      <div class="flex items-center">
+        <div
+          class="btn-dark ms-4 h-6 w-6 shrink-0 cursor-pointer text-[0] [background:url(./icons/theme.svg)_left_center/cover_no-repeat] dark:invert dark:[background-position:right]"
+          role="button"
+          aria-label="Dark"
+        ></div>&nbsp;
+        <a class="text-2xl font-semibold" href="https://daradege.github.io/school-blog">بلاگ درسی علی صفامنش</a>
+      </div>
+      
+      <div
+        class="btn-menu relative z-50 flex h-8 w-8 shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+        role="button"
+        aria-label="Menu"
+      ></div>
+      
+    </div>
+    <script>
+      // base
+      const htmlClass = document.documentElement.classList;
+      setTimeout(() => {
+        htmlClass.remove("not-ready");
+      }, 10);
+
+      // mobile menu
+      const btnMenu = document.querySelector(".btn-menu");
+      btnMenu?.addEventListener("click", () => {
+        htmlClass.toggle("open");
+      });
+
+      // dark theme
+      const setDark = (isDark) => {
+        if (isDark) {
+          document.body.dispatchEvent(new CustomEvent("set-theme", { detail: "dark" }));
+          htmlClass.add("dark");
+        } else {
+          document.body.dispatchEvent(new CustomEvent("set-theme", { detail: "light" }));
+          htmlClass.remove("dark");
+        }
+        localStorage.setItem("dark", isDark);
+      };
+
+      // init
+      const darkScheme = window.matchMedia("(prefers-color-scheme: dark)");
+      if (htmlClass.contains("dark")) {
+        setDark(true);
+      } else {
+        const darkVal = localStorage.getItem("dark");
+        setDark(darkVal ? darkVal === "true" : darkScheme.matches);
+      }
+
+      // listen system
+      darkScheme.addEventListener("change", (event) => {
+        setDark(event.matches);
+      });
+
+      // manual switch
+      const btnDark = document.querySelector(".btn-dark");
+      btnDark.addEventListener("click", () => {
+        setDark(localStorage.getItem("dark") !== "true");
+      });
+    </script>
+    
+    <nav class="flex w-full items-center lg:w-auto">
+      <ul
+        class="nav-wrapper flex w-full flex-col py-2 lg:w-auto lg:flex-row lg:self-center lg:py-0"
+      >
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://daradege.github.io/school-blog/tags"
+            >تگ‌ها</a
+          >
+        </li>
+        
+        <li>
+          <a
+            class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0"
+            href="https://daradege.github.io/school-blog/about"
+            >درباره</a
+          >
+        </li>
+        
+      </ul>
+      <!-- Header Nav inject -->
+      
+    </nav>
+    
+  </div>
+</header>
+
+
+    <!-- Body Start inject -->
+    
+
+    <main
+      class="prose prose-neutral relative mx-auto min-h-[calc(100%-9rem)] max-w-3xl break-words px-4 pb-16 pt-32 dark:prose-invert prose-pre:rounded-lg prose-img:rounded-lg"
+    >
+      
+<article>
+  <!-- Page Start inject -->
+  
+
+  <header class="mb-16">
+    <h1 class="!my-0 pb-2.5">جزوه ادبیات هشتم، جناس</h1>
+    <div class="text-sm antialiased opacity-60">
+  
+  <time>1404-03-08</time>
+  <span class="mx-1">&middot;</span>
+  <span>2 دقیقه</span>
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <span class="mx-1">&middot;</span>
+  <span>علی صفامنش</span>
+  
+  <!-- Page Info inject -->
+  
+</div>
+
+  </header>
+
+  
+
+  <!-- TOC -->
+  <!---->
+<div class="block-bg mb-12 flex rounded-lg p-2 text-lg">
+  <details>
+    <summary class="cursor-pointer py-1 pl-4">
+      <span style="padding: 10px;">جدول محتوا</span>
+    </summary>
+    <div class="px-2">
+      <ul>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://daradege.github.io/school-blog/dbyt-hshtm-jns/#sparkles-jzwhy-khml-aryhy-dby-jins"
+            >✨ جزوه‌ی کامل آرایه‌ی ادبی «جِناس»</a
+          >
+          
+          <ul>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://daradege.github.io/school-blog/dbyt-hshtm-jns/#small-blue-diamond-t-ryf-jns"
+                >🔹 تعریف جناس:</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://daradege.github.io/school-blog/dbyt-hshtm-jns/#small-orange-diamond-jdwl-pyh-jz-jns"
+                >🔸 جدول پایهٔ اجزاء جناس:</a
+              >
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://daradege.github.io/school-blog/dbyt-hshtm-jns/#dart-nw-jns-bh-zbn-sdh"
+            >🎯 انواع جناس به زبان ساده</a
+          >
+          
+          <ul>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://daradege.github.io/school-blog/dbyt-hshtm-jns/#white-check-mark-1-jns-tm-khml"
+                >✅ ۱. جناس تام (کامل)</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://daradege.github.io/school-blog/dbyt-hshtm-jns/#white-check-mark-2-jns-nqs"
+                >✅ ۲. جناس ناقص</a
+              >
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://daradege.github.io/school-blog/dbyt-hshtm-jns/#dart-jdwl-mqyshy-nw-jns"
+            >🎨 جدول مقایسه‌ای انواع جناس:</a
+          >
+          
+        </li>
+        
+        <li>
+          <a class="no-underline hover:underline" href="https://daradege.github.io/school-blog/dbyt-hshtm-jns/#star2-chnd-byt-mshhwr-b-jns"
+            >🌟 چند بیت مشهور با جناس:</a
+          >
+          
+          <ul>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://daradege.github.io/school-blog/dbyt-hshtm-jns/#writing-hand-tmrynh"
+                >✍️ تمرین‌ها:</a
+              >
+            </li>
+            
+            <li>
+              <a class="no-underline hover:underline" href="https://daradege.github.io/school-blog/dbyt-hshtm-jns/#brain-nkht-nhyy"
+                >🧠 نکات نهایی:</a
+              >
+            </li>
+            
+          </ul>
+          
+        </li>
+        
+      </ul>
+    </div>
+  </details>
+</div>
+
+<!---->
+
+  <!-- Content -->
+  <section><h2 id="sparkles-jzwhy-khml-aryhy-dby-jins">✨ جزوه‌ی کامل آرایه‌ی ادبی «جِناس»</h2>
+<h3 id="small-blue-diamond-t-ryf-jns">🔹 تعریف جناس:</h3>
+<p><strong>جِناس</strong> یعنی: <strong>هم‌آوایی (شباهت آوایی)</strong> بین دو واژه، که معمولاً باعث موسیقی، زیبایی و بازی با واژه‌ها در سخن می‌شود.
+در جناس، <strong>دو واژه</strong> در <strong>صدا (تلفظ)</strong> به هم شبیه‌اند ولی معمولاً در <strong>معنا متفاوت</strong> هستند.</p>
+<hr />
+<h3 id="small-orange-diamond-jdwl-pyh-jz-jns">🔸 جدول پایهٔ اجزاء جناس:</h3>
+<table><thead><tr><th>واژه اول</th><th>واژه دوم</th><th>شباهت آوایی</th><th>تفاوت معنایی</th></tr></thead><tbody>
+<tr><td><em>کار</em></td><td><em>یار</em></td><td>بله</td><td>بله</td></tr>
+<tr><td><em>دور</em></td><td><em>زور</em></td><td>بله</td><td>بله</td></tr>
+</tbody></table>
+<hr />
+<h2 id="dart-nw-jns-bh-zbn-sdh">🎯 انواع جناس به زبان ساده</h2>
+<hr />
+<h3 id="white-check-mark-1-jns-tm-khml">✅ <strong>۱. جناس تام (کامل)</strong></h3>
+<table><thead><tr><th>تعریف</th><th>دو واژه <strong>کاملاً هم‌صدا و هم‌حرف</strong> هستند ولی <strong>معنای متفاوتی</strong> دارند.</th></tr></thead><tbody>
+<tr><td>مثال</td><td><strong>از دیده برفتی، از دل نروی</strong> ← <em>رفت</em> و <em>رفت</em> (یکی به‌معنای دور شدن، یکی به‌معنای مردن)</td></tr>
+</tbody></table>
+<table><thead><tr><th>جمله</th><th>واژه‌ها</th><th>توضیح</th></tr></thead><tbody>
+<tr><td>شکسته باد دستی که دلی را شکسته باد.</td><td>شکسته – شکسته</td><td>هم‌حروف، هم‌صدا، ولی معنا متفاوت</td></tr>
+</tbody></table>
+<hr />
+<h3 id="white-check-mark-2-jns-nqs">✅ <strong>۲. جناس ناقص</strong></h3>
+<p>در جناس ناقص، واژه‌ها <strong>در تلفظ شبیه‌اند ولی در حروف فرق‌هایی دارند.</strong></p>
+<h4 id="small-orange-diamond-nw-jns-nqs">🔸 انواع جناس ناقص:</h4>
+<table><thead><tr><th>نوع</th><th>توضیح</th><th>مثال</th><th>واژه‌ها</th></tr></thead><tbody>
+<tr><td><strong>الف. اختلافی</strong></td><td><strong>یک یا چند حرف متفاوت است</strong></td><td><strong>باد</strong> آمد و <strong>یاد</strong> تو را آورد.</td><td>باد – یاد</td></tr>
+<tr><td><strong>ب. افزایشی</strong></td><td><strong>یکی از واژه‌ها حرف اضافه دارد</strong></td><td><strong>کار</strong> را به <strong>کارگر</strong> سپرد.</td><td>کار – کارگر</td></tr>
+<tr><td><strong>پ. حرکتی (مصوّت‌دار)</strong></td><td><strong>حرکت (ضمه، فتحه، کسره) تفاوت دارد</strong></td><td>به <strong>دست</strong> او <strong>دُست</strong> ندادم.</td><td>دست – دُست</td></tr>
+<tr><td><strong>ت. قلبی (جابه‌جایی حروف)</strong></td><td>حروف واژه‌ها جابه‌جا شده‌اند</td><td>از <strong>رام</strong> تا <strong>مار</strong> یک دنیا فرق است.</td><td>رام – مار</td></tr>
+</tbody></table>
+<hr />
+<h2 id="dart-jdwl-mqyshy-nw-jns">🎨 جدول مقایسه‌ای انواع جناس:</h2>
+<table><thead><tr><th>نوع جناس</th><th>شباهت صوتی</th><th>تفاوت نوشتاری</th><th>تفاوت معنایی</th><th>مثال</th></tr></thead><tbody>
+<tr><td>جناس تام</td><td>✅ کامل</td><td>❌ ندارد</td><td>✅ دارد</td><td>دیده - دیده (چشم / گذشته دیدن)</td></tr>
+<tr><td>جناس ناقص اختلافی</td><td>✅ تقریباً</td><td>✅ دارد</td><td>✅ دارد</td><td>باد – یاد</td></tr>
+<tr><td>جناس افزایشی</td><td>✅ تقریباً</td><td>✅ یکی طولانی‌تر</td><td>✅ دارد</td><td>کار – کارگر</td></tr>
+<tr><td>جناس حرکتی</td><td>✅ تقریباً</td><td>❌ ندارد (حروف یکسان)</td><td>✅ دارد</td><td>دست – دُست</td></tr>
+<tr><td>جناس قلبی</td><td>✅ جزئی</td><td>✅ ترتیب متفاوت</td><td>✅ دارد</td><td>رام – مار</td></tr>
+</tbody></table>
+<hr />
+<h2 id="star2-chnd-byt-mshhwr-b-jns">🌟 چند بیت مشهور با جناس:</h2>
+<blockquote>
+<p><strong>دل من در هوای دوست ز خود بی‌خبر شود
+به امید بوی دوست، همه جان‌پرور شود</strong>
+🔹 جناس تام: <strong>دوست – دوست</strong></p>
+</blockquote>
+<hr />
+<h3 id="writing-hand-tmrynh">✍️ تمرین‌ها:</h3>
+<ol>
+<li>
+<p>در بیت زیر، واژه‌های دارای جناس را پیدا کن:</p>
+<blockquote>
+<p>«شب آمد و با شبنمِ شب، شِکوه کردم از شب‌های سرد»</p>
+</blockquote>
+</li>
+<li>
+<p>برای هر نوع جناس، یک مثال بساز:</p>
+<ul>
+<li>جناس تام:</li>
+<li>جناس اختلافی:</li>
+<li>جناس افزایشی:</li>
+<li>جناس حرکتی:</li>
+</ul>
+</li>
+</ol>
+<hr />
+<h3 id="brain-nkht-nhyy">🧠 نکات نهایی:</h3>
+<ul>
+<li>جناس در <strong>شعر فارسی</strong> و <strong>متون ادبی</strong> باعث <strong>آهنگین شدن</strong> و زیبایی بیان می‌شود.</li>
+<li><strong>جناس تام</strong> بسیار نادر است و وقتی پیدا می‌شود، تأثیرگذارتر از انواع ناقص است.</li>
+<li>بعضی وقتا شاعر با استفاده از جناس، <strong>ایهام (دوپهلوگویی)</strong> هم ایجاد می‌کنه.</li>
+</ul>
+</section>
+
+  <hr />
+
+  <!-- Post Taxonomies -->
+  
+<footer class="mt-12 flex flex-col">
+  <!---->
+  <!---->
+  <!---->
+  <!---->
+  
+  <div class="mb-2 flex flex-wrap">
+    <span class="block-bg mb-1.5 mr-1.5 rounded-lg px-5 py-1.5">Tags </span>
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://daradege.github.io/school-blog/tags/dbyt/"
+      >ادبیات</a
+    >
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://daradege.github.io/school-blog/tags/hshtm/"
+      >هشتم</a
+    >
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://daradege.github.io/school-blog/tags/jns/"
+      >جناس</a
+    >
+    
+    <a
+      class="block-bg block-hover mb-1.5 mr-1.5 rounded-lg px-5 py-1.5 no-underline"
+      href="https://daradege.github.io/school-blog/tags/aryh/"
+      >آرایه</a
+    >
+    
+  </div>
+  
+</footer>
+
+<!---->
+
+  <!-- Post Nav -->
+  
+<nav class="block-bg mt-12 flex flex-wrap rounded-lg text-lg">
+  
+  
+  <a
+    class="block-hover-mask flex min-w-[50%] grow items-center rounded-l-md p-6 pr-3 font-semibold no-underline"
+    href="https:&#x2F;&#x2F;daradege.github.io&#x2F;school-blog&#x2F;dbyt-hshtm-tshbyh&#x2F;"
+    ><span>جزوه آرایه تشبیه فارسی هشتم</span><span class="mr-1.5">&nbsp;&nbsp;←</span></a
+  >
+  <!---->
+  
+</nav>
+
+<!---->
+
+  <!-- Comment -->
+  
+
+  <!-- Page End inject -->
+  
+</article>
+
+    </main>
+
+    <footer class="mx-auto flex max-w-3xl flex-wrap items-center px-8 py-4 text-sm opacity-60">
+  <div class="mr-auto basis-full lg:basis-1/2">
+    <!---->
+    <!---->
+    &copy; 2025<!---->
+    
+    <a class="link" href="https://daradege.github.io/school-blog">
+      علی صفامنش
+    </a>
+     |<!---->
+    <!---->
+    <a class="link" href="https:&#x2F;&#x2F;creativecommons.org&#x2F;licenses&#x2F;by-sa&#x2F;4.0&#x2F;deed" rel="noopener" target="_blank">
+      CC BY-SA 4.0
+    </a>
+    <!---->
+    
+  </div>
+  <div class="flex basis-full lg:basis-1/2 lg:justify-end">
+    <a class="link mr-6 lg:ml-6" href="https://www.getzola.org/" rel="noopener" target="_blank">
+      قدرت گرفته از زولا
+    </a>
+    <a class="link" href="https://github.com/st1020/kita" rel="noopener" target="_blank">✎ کیتا فارسی</a>
+  </div>
+  <!-- Footer inject -->
+  
+</footer>
+
+
+    <!-- Body End inject -->
+    
+  </body>
+</html>
