@@ -10,6 +10,10 @@
         <loc>https://daradege.ir/school-blog/archive/</loc>
     </url>
     <url>
+        <loc>https://daradege.ir/school-blog/dbyt-hshtm-tshbyh/</loc>
+        <lastmod>1404-03-08</lastmod>
+    </url>
+    <url>
         <loc>https://daradege.ir/school-blog/gdd-lwm-hshtm/</loc>
         <lastmod>1404-02-26</lastmod>
     </url>
@@ -25,6 +29,18 @@
     </url>
     <url>
         <loc>https://daradege.ir/school-blog/tags/</loc>
+    </url>
+    <url>
+        <loc>https://daradege.ir/school-blog/tags/aryh/</loc>
+    </url>
+    <url>
+        <loc>https://daradege.ir/school-blog/tags/aryh/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://daradege.ir/school-blog/tags/dbyt/</loc>
+    </url>
+    <url>
+        <loc>https://daradege.ir/school-blog/tags/dbyt/page/1/</loc>
     </url>
     <url>
         <loc>https://daradege.ir/school-blog/tags/fsl-shsh/</loc>
@@ -61,5 +77,11 @@
     </url>
     <url>
         <loc>https://daradege.ir/school-blog/tags/mthn/page/1/</loc>
+    </url>
+    <url>
+        <loc>https://daradege.ir/school-blog/tags/tshbyh/</loc>
+    </url>
+    <url>
+        <loc>https://daradege.ir/school-blog/tags/tshbyh/page/1/</loc>
     </url>
 </urlset>
